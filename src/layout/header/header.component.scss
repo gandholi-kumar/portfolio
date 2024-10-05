@@ -1,0 +1,17 @@
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-basis: 40%;
+    a {
+      &:hover {
+        background-color: #579460;
+      }
+    }
+  }
+}
